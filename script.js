@@ -17,7 +17,7 @@ squares.forEach(sq=>{
 squares.forEach(sq=>{
 	sq.addEventListener("mouseout",()=>{
 		setTimeout(()=>{
-			sq.style.backgroundColor="transparent"
+			sq.style.backgroundColor="rgb(29, 29, 29)";
 		},1000)
 	})
 })
